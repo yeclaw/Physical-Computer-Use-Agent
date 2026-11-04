@@ -1,0 +1,57 @@
+{
+  "protocol": "physical-agent-approved-media-v1",
+  "videos": [
+    {
+      "file": "partial-demo-learning.mp4",
+      "bytes": 17608669,
+      "sha256": "12f30280d7a9068d7932e5d1f6bcb84f73942d701531cef00f8d720e83f34aa7",
+      "duration_seconds": 180.8,
+      "frames": 4520,
+      "source_sha256": "4be46e40072ca8943e96c86586998f72f6dd289efb2b3e9f840514ddbb9f57a5",
+      "starting_condition": "Six letter demonstrations, Backspace/Space demonstrations and a Return program; separate knowledge store.",
+      "processing": {
+        "editorial_language": "English",
+        "method": "Redraw editorial layers; retain the prior approved camera rectangles and exact frame sequence.",
+        "prior_approved_sha256": "4be46e40072ca8943e96c86586998f72f6dd289efb2b3e9f840514ddbb9f57a5",
+        "prior_processing": "Additional head-camera right crop; original timing/labels retained.",
+        "privacy": "Existing avatar/company-mark crops and pads retained; no photographed region restored.",
+        "original_ui_and_messages_unmodified": true
+      }
+    },
+    {
+      "file": "typing-skill-improvement.mp4",
+      "bytes": 26831868,
+      "sha256": "534acec293303d1f75017b5805be7e546c22f9f70a5f9a1368f53eb470cf24ec",
+      "duration_seconds": 251.4,
+      "frames": 6285,
+      "source_sha256": "0499bcbc91ffee3b435c78ba41045836ce3c6671d0bdbd8a4e459b6ec092191f",
+      "starting_condition": "Complete demonstration catalog and accumulated knowledge; training excerpt, chat tail omitted.",
+      "processing": {
+        "editorial_language": "English",
+        "method": "Redraw editorial layers; retain the prior approved camera rectangles and exact frame sequence.",
+        "prior_approved_sha256": "0499bcbc91ffee3b435c78ba41045836ce3c6671d0bdbd8a4e459b6ec092191f",
+        "prior_processing": "Additional head-camera right crop; original timing/labels retained.",
+        "privacy": "Existing avatar/company-mark crops and pads retained; no photographed region restored.",
+        "original_ui_and_messages_unmodified": true
+      }
+    },
+    {
+      "file": "yuanbao-conversation.mp4",
+      "bytes": 31649588,
+      "sha256": "150605d3ef5968e0bcc1a0cbcb59649c3d8c2f07787f6cc1c8312738e2ca872a",
+      "duration_seconds": 101.8,
+      "frames": 2545,
+      "source_sha256": "eee5162d2223972b40ddc2ece8db1536afe88763f1c37316963fd3a2d470b3f2",
+      "starting_condition": "Complete 39-key demonstration catalog and prior skills; all 24 sends, condensed edit.",
+      "processing": {
+        "editorial_language": "English",
+        "method": "Redraw editorial layers; retain the prior approved camera rectangles and exact frame sequence.",
+        "prior_approved_sha256": "eee5162d2223972b40ddc2ece8db1536afe88763f1c37316963fd3a2d470b3f2",
+        "prior_processing": "Byte-identical to the already privacy-reviewed final chat edit.",
+        "privacy": "Existing avatar/company-mark crops and pads retained; no photographed region restored.",
+        "original_ui_and_messages_unmodified": true
+      }
+    }
+  ],
+  "note": "Edited demonstrations, not continuous benchmark recordings. Different starting conditions."
+}

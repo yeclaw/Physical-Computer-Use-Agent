@@ -1,0 +1,17 @@
+{
+  "protocol": "physical-keyboard-task-contract-v1",
+  "id": "PCU-TASK-ENGLISH-001",
+  "version": 1,
+  "scope": {
+    "task_id": "mock-task",
+    "device_id": "mock-device",
+    "layout_id": "mock-layout"
+  },
+  "objective": "Continue learning physical English keyboard input until you can enter the literal text hello in the training notepad using reusable learned typing Skills, verify the actual input text and that input has stopped after release from external cameras, and preserve the justified Skills and Lessons. Intermediate viewing, single-key and composition experiments are stages of this same unfinished task.",
+  "target_text": "hello",
+  "completion_requirements": [
+    "exact_visible_text",
+    "released_and_input_stable",
+    "reusable_skill_saved"
+  ]
+}

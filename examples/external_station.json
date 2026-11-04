@@ -1,0 +1,17 @@
+{
+  "task": "Exercise external factories on a synthetic waypoint station. Do not claim physical or autonomous learning.",
+  "scope": {"task_id": "waypoint-fixture", "device_id": "station-example", "layout_id": "layout-one"},
+  "knowledge": "./external-station-knowledge",
+  "device": {
+    "factory": "external_station:device_factory",
+    "settings": {
+      "id": "station-example",
+      "coordinate_frame": "synthetic_station_base",
+      "views": ["inspection"],
+      "workspace_m": [[0.1, -0.3, 0.2], [0.5, 0.1, 0.6]],
+      "initial_xyz_m": [0.15, -0.25, 0.45],
+      "target_xyz_m": [0.24, -0.18, 0.37]
+    }
+  },
+  "model": {"factory": "external_station:session_factory", "settings": {}}
+}

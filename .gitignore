@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+runs/
+knowledge/
+.env
+
+# Local authentication, deployment settings and signing material.
+.codex/
+codex_home/
+.ssh/
+.env.*
+!.env.example
+auth.json
+credentials.json
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+config.local.*
+.DS_Store
+.pytest_cache/

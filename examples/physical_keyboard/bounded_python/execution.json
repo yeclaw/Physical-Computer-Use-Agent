@@ -1,0 +1,1 @@
+{"protocol":"physical-keyboard-executable-v1","kind":"bounded-python-v1","entry":"skill.py","includes":["helpers.py"]}

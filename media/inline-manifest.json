@@ -1,0 +1,238 @@
+{
+  "issue": "https://github.com/yeclaw/Physical-Computer-Use-Agent/issues/2",
+  "editorial_language": "English",
+  "style": "physical-computer-use-light",
+  "clips": [
+    {
+      "file": "chat-01.mp4",
+      "frames": 774,
+      "duration_seconds": 30.96,
+      "bytes": 3882972,
+      "sha256": "186b5989e6bf8d228765ffe6473b24e76b966dc900b695f96deaf35575586b2f",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "chat-01",
+      "title": "Conversation 1 / 4",
+      "source": "yuanbao-conversation.mp4",
+      "source_sha256": "150605d3ef5968e0bcc1a0cbcb59649c3d8c2f07787f6cc1c8312738e2ca872a",
+      "start_frame": 0,
+      "end_frame_exclusive": 774,
+      "url": "https://github.com/user-attachments/assets/a1598b21-fe4b-4a5d-bfea-629bc18a569c"
+    },
+    {
+      "file": "chat-02.mp4",
+      "frames": 561,
+      "duration_seconds": 22.44,
+      "bytes": 2880728,
+      "sha256": "7884ae706ad5e176482ab46292dfd2bcf3f055614155b855932bb21aa6b710c2",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "chat-02",
+      "title": "Conversation 2 / 4",
+      "source": "yuanbao-conversation.mp4",
+      "source_sha256": "150605d3ef5968e0bcc1a0cbcb59649c3d8c2f07787f6cc1c8312738e2ca872a",
+      "start_frame": 774,
+      "end_frame_exclusive": 1335,
+      "url": "https://github.com/user-attachments/assets/8c23d8ca-921c-4577-ba2e-3ab44c079799"
+    },
+    {
+      "file": "chat-03.mp4",
+      "frames": 510,
+      "duration_seconds": 20.4,
+      "bytes": 2665031,
+      "sha256": "1fdc146799d3a89ffbc9a7f2905ef522bd5ad31fa2ed64a6059ef7f05155254f",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "chat-03",
+      "title": "Conversation 3 / 4",
+      "source": "yuanbao-conversation.mp4",
+      "source_sha256": "150605d3ef5968e0bcc1a0cbcb59649c3d8c2f07787f6cc1c8312738e2ca872a",
+      "start_frame": 1335,
+      "end_frame_exclusive": 1845,
+      "url": "https://github.com/user-attachments/assets/5bbd2de5-8321-4155-894e-54532726cdc0"
+    },
+    {
+      "file": "chat-04.mp4",
+      "frames": 700,
+      "duration_seconds": 28.0,
+      "bytes": 3279437,
+      "sha256": "ba7affafaecf6b231bbe41e32d884e24b9c076337106098b424815d8e71c4bf6",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "chat-04",
+      "title": "Conversation 4 / 4",
+      "source": "yuanbao-conversation.mp4",
+      "source_sha256": "150605d3ef5968e0bcc1a0cbcb59649c3d8c2f07787f6cc1c8312738e2ca872a",
+      "start_frame": 1845,
+      "end_frame_exclusive": 2545,
+      "url": "https://github.com/user-attachments/assets/df2be0fb-dd5b-4d7f-a9d3-c4317f3e6c73"
+    },
+    {
+      "file": "learning-g.mp4",
+      "frames": 1619,
+      "duration_seconds": 64.76,
+      "bytes": 2514234,
+      "sha256": "03533085116c57f9c74ee2e19d6ce030f871ec0f1e6a2c0bd33352d5ea069b4a",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "learning-g",
+      "title": "Learning g",
+      "source": "partial-demo-learning.mp4",
+      "source_sha256": "12f30280d7a9068d7932e5d1f6bcb84f73942d701531cef00f8d720e83f34aa7",
+      "start_frame": 0,
+      "end_frame_exclusive": 1619,
+      "url": "https://github.com/user-attachments/assets/25b7a981-bdb4-4165-a822-9782e9dfb0c5"
+    },
+    {
+      "file": "learning-e.mp4",
+      "frames": 1166,
+      "duration_seconds": 46.64,
+      "bytes": 2309628,
+      "sha256": "eba0350df97467b4dee8f8969b051a0ab35eef05a41b1aa2090418d273f97da1",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "learning-e",
+      "title": "Learning e",
+      "source": "partial-demo-learning.mp4",
+      "source_sha256": "12f30280d7a9068d7932e5d1f6bcb84f73942d701531cef00f8d720e83f34aa7",
+      "start_frame": 1619,
+      "end_frame_exclusive": 2785,
+      "url": "https://github.com/user-attachments/assets/0546c9cc-7fd5-4901-8d3d-90dee903c188"
+    },
+    {
+      "file": "learning-hello.mp4",
+      "frames": 1735,
+      "duration_seconds": 69.4,
+      "bytes": 3733646,
+      "sha256": "32c812907323784a8ab5771e3f26e63e67d81cf7f852770070a2dae3a76410e2",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "learning-hello",
+      "title": "Composing hello",
+      "source": "partial-demo-learning.mp4",
+      "source_sha256": "12f30280d7a9068d7932e5d1f6bcb84f73942d701531cef00f8d720e83f34aa7",
+      "start_frame": 2785,
+      "end_frame_exclusive": 4520,
+      "url": "https://github.com/user-attachments/assets/8fbe4d19-7809-4218-b7bf-6936c5abe540"
+    },
+    {
+      "file": "typing-continuous.mp4",
+      "frames": 1169,
+      "duration_seconds": 46.76,
+      "bytes": 2137196,
+      "sha256": "39e0b2f5e1653806af626d78e7b2980625184afdd24f3e1703d0ef78db81724e",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "typing-continuous",
+      "title": "5w5w5w5 in one program",
+      "source": "typing-skill-improvement.mp4",
+      "source_sha256": "534acec293303d1f75017b5805be7e546c22f9f70a5f9a1368f53eb470cf24ec",
+      "start_frame": 2186,
+      "end_frame_exclusive": 3355,
+      "url": "https://github.com/user-attachments/assets/2d177612-0dc3-4d08-ba2e-52104057993f"
+    },
+    {
+      "file": "typing-enter.mp4",
+      "frames": 552,
+      "duration_seconds": 22.08,
+      "bytes": 1001012,
+      "sha256": "8a2076031a248fcb10e76da9b36bfe15bdc9e373374a66b8a5dac6907081f0e9",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "typing-enter",
+      "title": "Complete Enter skill",
+      "source": "typing-skill-improvement.mp4",
+      "source_sha256": "534acec293303d1f75017b5805be7e546c22f9f70a5f9a1368f53eb470cf24ec",
+      "start_frame": 1634,
+      "end_frame_exclusive": 2186,
+      "url": "https://github.com/user-attachments/assets/a1874403-85fc-42e1-bdda-3511520a72ce"
+    },
+    {
+      "file": "typing-phrase.mp4",
+      "frames": 587,
+      "duration_seconds": 23.48,
+      "bytes": 1239517,
+      "sha256": "a0692e181e5bbdb940988dde6c6ca95ec197409c87ba9873303b47b706976db1",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "typing-phrase",
+      "title": "move up",
+      "source": "typing-skill-improvement.mp4",
+      "source_sha256": "534acec293303d1f75017b5805be7e546c22f9f70a5f9a1368f53eb470cf24ec",
+      "start_frame": 3355,
+      "end_frame_exclusive": 3942,
+      "url": "https://github.com/user-attachments/assets/d55fad99-e1fb-4db4-95f1-3a9a2a21399b"
+    },
+    {
+      "file": "typing-mixed.mp4",
+      "frames": 1252,
+      "duration_seconds": 50.08,
+      "bytes": 2593252,
+      "sha256": "0e86e18b3c02514263274ae54cdad4f83788beaa67972b78ef127da6fa368098",
+      "full_decode": true,
+      "codec": "h264",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 25,
+      "id": "typing-mixed",
+      "title": "18-character mixed input",
+      "source": "typing-skill-improvement.mp4",
+      "source_sha256": "534acec293303d1f75017b5805be7e546c22f9f70a5f9a1368f53eb470cf24ec",
+      "start_frame": 4542,
+      "end_frame_exclusive": 5794,
+      "url": "https://github.com/user-attachments/assets/26ac6c4a-3fec-4c5f-9b05-80b3cc3564ad"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"evidence_mode":"synthetic","target_xyz_m":[0.01,0.0,0.2],"approach_z_m":0.22,"press_z_m":0.19,"release_z_m":0.22,"max_step_m":0.01,"position_tolerance_m":0.00001,"max_steps":12,"settle_s":0.0}

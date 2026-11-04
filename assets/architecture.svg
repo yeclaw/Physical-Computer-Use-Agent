@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080" role="img">
+<title>Physical Computer Use Agent: execution and continuous learning</title>
+<desc>Four core components. The Agent writes programs and checks feedback, Runtime executes through an external adapter, Skills retain reusable experience, and Records preserve evidence. The right gripper observes a screen while the left gripper types.</desc>
+<defs><marker id="arrow_3979c6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#3979c6" stroke-width="1.5" stroke-linejoin="round"/></marker><marker id="arrow_8866b5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8866b5" stroke-width="1.5" stroke-linejoin="round"/></marker><marker id="arrow_319781" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#319781" stroke-width="1.5" stroke-linejoin="round"/></marker><marker id="arrow_d88b35" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#d88b35" stroke-width="1.5" stroke-linejoin="round"/></marker></defs>
+<rect width="1600" height="1080" fill="#f8fafd"/>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+<text x="64" y="57" font-size="19" font-weight="700" fill="#3979c6" letter-spacing="1.8">PHYSICAL COMPUTER USE AGENT</text>
+<text x="64" y="113" font-size="42" font-weight="700" fill="#1e3048" >Execute the task. Improve the skill.</text>
+<text x="64" y="151" font-size="22" font-weight="400" fill="#64748b" >A fixed model learns through programs, feedback and persistent experience.</text>
+<text x="1536" y="57" font-size="19" font-weight="500" fill="#64748b" text-anchor="end" >yeclaw</text>
+<rect x="64" y="192" width="500" height="366" rx="20" fill="#edf4fd" stroke="#3979c6" stroke-width="1.7"/>
+<text x="94" y="238" font-size="28" font-weight="700" fill="#3979c6" >01  Agent</text>
+<text x="96" y="274" font-size="19" font-weight="400" fill="#64748b" >Task + application context + relevant knowledge</text>
+<rect x="96" y="296" width="436" height="54" rx="11" fill="#ffffff" stroke="#3979c6" stroke-width="1.4"/>
+<text x="314.0" y="331" font-size="21" font-weight="500" fill="#1e3048" text-anchor="middle" >Observe + retrieve context</text>
+<rect x="96" y="374" width="436" height="54" rx="11" fill="#ffffff" stroke="#3979c6" stroke-width="1.4"/>
+<text x="314.0" y="409" font-size="21" font-weight="500" fill="#1e3048" text-anchor="middle" >Write / revise a program</text>
+<rect x="96" y="452" width="436" height="54" rx="11" fill="#ffffff" stroke="#3979c6" stroke-width="1.4"/>
+<text x="314.0" y="487" font-size="21" font-weight="500" fill="#1e3048" text-anchor="middle" >Check the observed result</text>
+<path d="M 314 350 V 368" fill="none" stroke="#3979c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_3979c6)"/>
+<path d="M 314 428 V 446" fill="none" stroke="#3979c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_3979c6)"/>
+<path d="M 96 479 H 81 V 323 H 90" fill="none" stroke="#3979c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_3979c6)"/>
+<rect x="790" y="192" width="405" height="366" rx="20" fill="#fff4e8" stroke="#d88b35" stroke-width="1.7"/>
+<text x="820" y="238" font-size="28" font-weight="700" fill="#d88b35" >02  Runtime</text>
+<text x="822" y="274" font-size="18" font-weight="400" fill="#64748b" >Trusted execution + actual observations</text>
+<rect x="822" y="296" width="341" height="54" rx="11" fill="#ffffff" stroke="#d88b35" stroke-width="1.4"/>
+<text x="992.5" y="331" font-size="21" font-weight="500" fill="#1e3048" text-anchor="middle" >Prepare</text>
+<rect x="822" y="374" width="341" height="54" rx="11" fill="#ffffff" stroke="#d88b35" stroke-width="1.4"/>
+<text x="992.5" y="409" font-size="21" font-weight="500" fill="#1e3048" text-anchor="middle" >Dispatch</text>
+<rect x="822" y="452" width="341" height="54" rx="11" fill="#ffffff" stroke="#d88b35" stroke-width="1.4"/>
+<text x="992.5" y="487" font-size="21" font-weight="500" fill="#1e3048" text-anchor="middle" >Observe + return receipt</text>
+<path d="M 992 350 V 368" fill="none" stroke="#d88b35" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_d88b35)"/>
+<path d="M 992 428 V 446" fill="none" stroke="#d88b35" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_d88b35)"/>
+<path d="M 532 401 H 675 V 323 H 816" fill="none" stroke="#3979c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_3979c6)"/>
+<text x="675" y="302" font-size="18" font-weight="600" fill="#3979c6" text-anchor="middle" >program</text>
+<path d="M 822 479 H 570" fill="none" stroke="#319781" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_319781)"/>
+<text x="678" y="460" font-size="18" font-weight="600" fill="#319781" text-anchor="middle" >feedback</text>
+<rect x="1298" y="192" width="248" height="366" rx="20" fill="#f5f9fb" stroke="#65889c" stroke-width="1.7"/>
+<text x="1328" y="238" font-size="28" font-weight="700" fill="#65889c" >Physical setup</text>
+<text x="1328" y="269" font-size="17" font-weight="400" fill="#64748b" >External device adapter</text>
+<rect x="1362" y="290" width="121" height="65" rx="7" fill="#ffffff" stroke="#d88b35" stroke-width="2"/>
+<path d="M 1422 355 V 369 M 1396 369 H 1448" fill="none" stroke="#d88b35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1422" y="394" font-size="17" font-weight="500" fill="#1e3048" text-anchor="middle" >Right wrist camera</text>
+<text x="1422" y="414" font-size="16" font-weight="400" fill="#64748b" text-anchor="middle" >fixed on screen</text>
+<path d="M 1324 428 H 1520" fill="none" stroke="#d8e4ec" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1346" y="441" width="152" height="35" rx="6" fill="#ffffff" stroke="#319781" stroke-width="1.8"/>
+<rect x="1358" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1371" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1384" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1397" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1410" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1423" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1436" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1449" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1462" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1475" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1488" y="450" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1358" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1371" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1384" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1397" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1410" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1423" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1436" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1449" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1462" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1475" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<rect x="1488" y="460" width="8" height="5" rx="1" fill="#7bb29f" stroke="none" stroke-width="1.7"/>
+<text x="1422" y="508" font-size="17" font-weight="500" fill="#1e3048" text-anchor="middle" >Left finger: type</text>
+<text x="1422" y="538" font-size="16" font-weight="400" fill="#64748b" text-anchor="middle" >No dexterous hand</text>
+<path d="M 1163 401 H 1292" fill="none" stroke="#d88b35" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_d88b35)"/>
+<path d="M 1298 500 H 1219 V 523 H 1163" fill="none" stroke="#319781" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_319781)"/>
+<text x="1245" y="379" font-size="16" font-weight="500" fill="#d88b35" text-anchor="middle" >action</text>
+<text x="1232" y="547" font-size="16" font-weight="500" fill="#319781" text-anchor="middle" >sensing</text>
+<rect x="64" y="676" width="500" height="210" rx="20" fill="#ecf7f2" stroke="#319781" stroke-width="1.7"/>
+<text x="94" y="722" font-size="28" font-weight="700" fill="#319781" >03  Skills + experience</text>
+<rect x="96" y="745" width="111" height="42" rx="9" fill="#ffffff" stroke="#c4dfcf" stroke-width="1.1"/>
+<text x="151.5" y="773" font-size="18" font-weight="600" fill="#319781" text-anchor="middle" >Skills</text>
+<rect x="220" y="745" width="129" height="42" rx="9" fill="#ffffff" stroke="#c4dfcf" stroke-width="1.1"/>
+<text x="284.5" y="773" font-size="18" font-weight="600" fill="#319781" text-anchor="middle" >Lessons</text>
+<rect x="362" y="745" width="170" height="42" rx="9" fill="#ffffff" stroke="#c4dfcf" stroke-width="1.1"/>
+<text x="447.0" y="773" font-size="18" font-weight="600" fill="#319781" text-anchor="middle" >Improvements</text>
+<text x="96" y="824" font-size="20" font-weight="500" fill="#1e3048" >Conditions · versions · device knowledge</text>
+<text x="96" y="859" font-size="19" font-weight="400" fill="#64748b" >Retain, revise and reuse across tasks</text>
+<path d="M 205 558 V 670" fill="none" stroke="#319781" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_319781)"/>
+<text x="218" y="614" font-size="17" font-weight="500" fill="#319781" >save + update</text>
+<path d="M 440 676 V 564" fill="none" stroke="#319781" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_319781)"/>
+<text x="452" y="614" font-size="17" font-weight="500" fill="#319781" >recall</text>
+<rect x="790" y="676" width="756" height="210" rx="20" fill="#f3eefa" stroke="#8866b5" stroke-width="1.7"/>
+<text x="820" y="722" font-size="28" font-weight="700" fill="#8866b5" >04  Records</text>
+<rect x="822" y="745" width="135" height="42" rx="9" fill="#ffffff" stroke="#ead5b8" stroke-width="1.1"/>
+<text x="889.5" y="773" font-size="18" font-weight="600" fill="#8866b5" text-anchor="middle" >Attempts</text>
+<rect x="971" y="745" width="122" height="42" rx="9" fill="#ffffff" stroke="#ead5b8" stroke-width="1.1"/>
+<text x="1032.0" y="773" font-size="18" font-weight="600" fill="#8866b5" text-anchor="middle" >Images</text>
+<rect x="1107" y="745" width="112" height="42" rx="9" fill="#ffffff" stroke="#ead5b8" stroke-width="1.1"/>
+<text x="1163.0" y="773" font-size="18" font-weight="600" fill="#8866b5" text-anchor="middle" >Usage</text>
+<rect x="1233" y="745" width="281" height="42" rx="9" fill="#ffffff" stroke="#ead5b8" stroke-width="1.1"/>
+<text x="1373.5" y="773" font-size="18" font-weight="600" fill="#8866b5" text-anchor="middle" >Source + version snapshots</text>
+<text x="822" y="824" font-size="20" font-weight="500" fill="#1e3048" >Programs · receipts · timestamps · outcomes</text>
+<text x="822" y="859" font-size="19" font-weight="400" fill="#64748b" >Evidence connects each revision to what actually happened</text>
+<path d="M 564 540 H 650 V 630 H 840 V 670" fill="none" stroke="#8866b5" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_8866b5)"/>
+<text x="665" y="610" font-size="17" font-weight="500" fill="#8866b5" >task trace</text>
+<path d="M 992 558 V 670" fill="none" stroke="#8866b5" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow_8866b5)"/>
+<text x="1007" y="614" font-size="17" font-weight="500" fill="#8866b5" >execution trace</text>
+<rect x="64" y="937" width="1482" height="91" rx="15" fill="#ecf7f2" stroke="#c4dfcf" stroke-width="1.5"/>
+<text x="92" y="971" font-size="18" font-weight="700" fill="#319781" letter-spacing="0.8">CONTINUOUS IMPROVEMENT</text>
+<text x="490" y="971" font-size="23" font-weight="600" fill="#1e3048" >Notice an issue → try a revision → check → save → reuse</text>
+<text x="92" y="1007" font-size="20" font-weight="400" fill="#64748b" >The Agent chooses what to improve; the Runtime executes and the knowledge library carries it forward.</text>
+<text x="64" y="1060" font-size="17" font-weight="400" fill="#64748b" >Arrows show information and execution flow. Hardware-specific control is supplied by the external adapter.</text>
+</g></svg>

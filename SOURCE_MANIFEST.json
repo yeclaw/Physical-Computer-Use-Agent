@@ -1,0 +1,1184 @@
+{
+  "excluded_test_boundaries": {
+    "learning_host": "Tests the excluded trajectory/raw-collection RPC bridge",
+    "learning_plan_sources": "Imports excluded six-axis diagnostic fixtures",
+    "learning_references": "Tests reference-device CLI configuration",
+    "learning_source_bridge": "Tests the excluded private host historical bridge",
+    "learning_sources": "Imports excluded raw demonstration collector fixtures",
+    "typing_lab_integration": "Imports private device launcher fixtures"
+  },
+  "protocol": "physical-agent-source-export-v1",
+  "source_files": {
+    ".gitattributes": {
+      "bytes": 179,
+      "origin": "tools/core_release/overlay/.gitattributes",
+      "sha256": "8e84c24d12f27f0b6f9788cf04498bd3e38f74291d284f3eb41f1849a42d2199"
+    },
+    ".github/workflows/tests.yml": {
+      "bytes": 486,
+      "origin": "tools/core_release/overlay/.github/workflows/tests.yml",
+      "sha256": "fcc5ff3191ea0f506c91a367fd6e7ec7c1d07dd0d88209ec5289dcf0bd818d7b"
+    },
+    ".gitignore": {
+      "bytes": 292,
+      "origin": "tools/core_release/overlay/.gitignore",
+      "sha256": "1fabbf5a9e69e9f5a23e6b81d0279b0d319c0f2998fe7e467e689bcf67710830"
+    },
+    "CITATION.cff": {
+      "bytes": 360,
+      "origin": "tools/core_release/overlay/CITATION.cff",
+      "sha256": "b6e233c0d4c9302d82b62fd40f2cd502973e3184f24491aacd796f0a536feea6"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 1508,
+      "origin": "tools/core_release/overlay/CONTRIBUTING.md",
+      "sha256": "904d552412a5d2b30ea715f0373e637641b37620815e063be099be6bd8f121d5"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "origin": "tools/core_release/overlay/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE": {
+      "bytes": 138,
+      "origin": "tools/core_release/overlay/NOTICE",
+      "sha256": "581060730ad3109e1be385e264311388493a9be9f01fbeaa24f8341f36011c06"
+    },
+    "README.md": {
+      "bytes": 8488,
+      "origin": "docs/open_source/README.md",
+      "sha256": "bb36aeee44569a45315ed48ed675c25ecaccb3d5870b41b1943e54b48da88e9d"
+    },
+    "README.zh-CN.md": {
+      "bytes": 7889,
+      "origin": "docs/open_source/README.zh-CN.md",
+      "sha256": "29521d664f0e63fcdb005864f1f5e656802749b7f2c214421fbb5919872e0f91"
+    },
+    "assets/architecture.svg": {
+      "bytes": 13552,
+      "origin": "docs/open_source/assets/architecture.svg",
+      "sha256": "6104b095ea31d89636ee0dddccc813ede06ae96b86ded7d434495bcac33c7e7a"
+    },
+    "assets/chat-usage-data.json": {
+      "bytes": 682,
+      "origin": "docs/open_source/assets/chat-usage-data.json",
+      "sha256": "53b72a96bcf258f7f38135e4de55505e772bc6d54353582d1d53770aa11dba27"
+    },
+    "assets/chat-usage.svg": {
+      "bytes": 13342,
+      "origin": "docs/open_source/assets/chat-usage.svg",
+      "sha256": "50ffc29bd2e0e415dc613c519651097c553c1350a6f7f93939a72e76d05ee4ae"
+    },
+    "assets/demo-preview.jpg": {
+      "bytes": 149976,
+      "origin": "docs/open_source/assets/demo-preview.jpg",
+      "sha256": "e03fc6f437e9f7f513017d0685ce123b68aaca6b33792f8c4ab270de19ed0dbb"
+    },
+    "configs/physical_keyboard/skill_development_contract.json": {
+      "bytes": 1340,
+      "origin": "tools/core_release/overlay/configs/physical_keyboard/skill_development_contract.json",
+      "sha256": "46c68674abb0ae61f68200a88018a2342f0cbccf5a0ff2d548d82f6e299c0f49"
+    },
+    "configs/physical_keyboard/task_contract.json": {
+      "bytes": 775,
+      "origin": "tools/core_release/overlay/configs/physical_keyboard/task_contract.json",
+      "sha256": "0681a6f192733004b5404cda120bda82d8bac2dfbf6ca0282b5881794d53eb0a"
+    },
+    "configs/physical_keyboard/typing_lab_contract.json": {
+      "bytes": 1761,
+      "origin": "tools/core_release/overlay/configs/physical_keyboard/typing_lab_contract.json",
+      "sha256": "a1563671d7034fa3cfa46a1a5c61389fe857c6af938c30db8e8509a1e4ddd37a"
+    },
+    "configs/physical_keyboard/wechat_self_chat_contract.json": {
+      "bytes": 1093,
+      "origin": "tools/core_release/overlay/configs/physical_keyboard/wechat_self_chat_contract.json",
+      "sha256": "7acd4f9f06c0bea47851376c3b4e40960c8e088b99a8db17c35415a20f6eec62"
+    },
+    "docs/architecture.md": {
+      "bytes": 4436,
+      "origin": "docs/open_source/docs/architecture.md",
+      "sha256": "df08eddc31c0dd4ac6965ac3356c2abf35035682041ce6812095bfa5874f6ecb"
+    },
+    "docs/experiments.md": {
+      "bytes": 3670,
+      "origin": "docs/open_source/docs/experiments.md",
+      "sha256": "14c8bb81f7a344fc9dedd1fda02e7403903a5dbff309ee444055bf53391aa716"
+    },
+    "docs/integration.md": {
+      "bytes": 13446,
+      "origin": "docs/open_source/docs/integration.md",
+      "sha256": "2683489366a8b2da6eb8c6efcb5fd55c87c68bb61c2ae8fcc6086b3979c47203"
+    },
+    "docs/privacy.md": {
+      "bytes": 2373,
+      "origin": "docs/open_source/docs/privacy.md",
+      "sha256": "530e387c47a9c92249b394a0a1c5fe2de35fc8bf6097203df1155fc1c395be25"
+    },
+    "docs/references.md": {
+      "bytes": 2787,
+      "origin": "docs/open_source/docs/references.md",
+      "sha256": "318bb33dffdc099290f750a94df9dc3d2a4b24c5a402787daf8acf17f7e0158f"
+    },
+    "docs/related-work.md": {
+      "bytes": 3887,
+      "origin": "docs/open_source/docs/related-work.md",
+      "sha256": "fb00c6d202ec1b3343f5bb4e023bdeb07fc6a44d9e2797908649e69479dee3a8"
+    },
+    "docs/validation.md": {
+      "bytes": 3247,
+      "origin": "docs/open_source/docs/validation.md",
+      "sha256": "ee51d674d3d224bb608d237397d9877fb613203c85d226d19c22357828b0eb4b"
+    },
+    "examples/external_station.json": {
+      "bytes": 700,
+      "origin": "tools/core_release/overlay/examples/external_station.json",
+      "sha256": "b48ce29b6e512e11655a614fcd80bd31242ecc5fa282e83287613d5db5d4194d"
+    },
+    "examples/external_station.py": {
+      "bytes": 9763,
+      "origin": "tools/core_release/overlay/examples/external_station.py",
+      "sha256": "6667bb934fb9b761e6e28691d06e2497de5db5e26597fcf7a5f00b47407402ef"
+    },
+    "examples/offline.json": {
+      "bytes": 494,
+      "origin": "tools/core_release/overlay/examples/offline.json",
+      "sha256": "3f823a572ae311b2ce0ad9a4252764e6d832fdb2dc6341f25bb4a59fc7bdc2d0"
+    },
+    "examples/physical_keyboard/bounded_python/execution.json": {
+      "bytes": 119,
+      "origin": "examples/physical_keyboard/bounded_python/execution.json",
+      "sha256": "7f186eb33b78c4ce16c6a887eebc9cae0269bf25ffb6e9e5ea42b6c072be9f2a"
+    },
+    "examples/physical_keyboard/bounded_python/helpers.py": {
+      "bytes": 878,
+      "origin": "examples/physical_keyboard/bounded_python/helpers.py",
+      "sha256": "945cfc2b7467c0899f0c7e27dcfa59a7220a952c6462edd46e279db58d84a85e"
+    },
+    "examples/physical_keyboard/bounded_python/profile.json": {
+      "bytes": 195,
+      "origin": "examples/physical_keyboard/bounded_python/profile.json",
+      "sha256": "fd3f351f5608f9f58a1430a348d0a7f9b15aa89568aa1ef6d6a8e896f9519f9c"
+    },
+    "examples/physical_keyboard/bounded_python/skill.py": {
+      "bytes": 802,
+      "origin": "examples/physical_keyboard/bounded_python/skill.py",
+      "sha256": "fd452916f197072cca18c2f5b53846f1f23b27bf79174244e543bed5cc717aa6"
+    },
+    "examples/results/chat-decision-usage.csv": {
+      "bytes": 8522,
+      "origin": "docs/open_source/examples/results/chat-decision-usage.csv",
+      "sha256": "11f3cacb268e1800b703187d589c9443d4b1b1b08b79a279dc9314f7a0f169bd"
+    },
+    "examples/results/chat-summary.json": {
+      "bytes": 1271,
+      "origin": "docs/open_source/examples/results/chat-summary.json",
+      "sha256": "4e7a09e36a9496119161bda404bff674ad53869bae2359ef1e596f3ac480839e"
+    },
+    "media/README.md": {
+      "bytes": 1777,
+      "origin": "docs/open_source/media/README.md",
+      "sha256": "efaaaf8f6de81681ed74900c7eba570a098049cefdc0cf8cfea1fe6646dc1370"
+    },
+    "media/inline-manifest.json": {
+      "bytes": 7727,
+      "origin": "docs/open_source/media/inline-manifest.json",
+      "sha256": "d495ab2705ea50ec9fdbafa09622f5770e3622a4d00298fc187a117a639ee262"
+    },
+    "media/manifest.json": {
+      "bytes": 3130,
+      "origin": "approved media manifest",
+      "sha256": "4804891472cb3a2f79a2e21f41a8a82bf5972d92a61d44ed6f2b850962342368"
+    },
+    "media/partial-demo-learning.mp4": {
+      "bytes": 17608669,
+      "origin": "operator-approved derived demonstration",
+      "sha256": "12f30280d7a9068d7932e5d1f6bcb84f73942d701531cef00f8d720e83f34aa7"
+    },
+    "media/typing-skill-improvement.mp4": {
+      "bytes": 26831868,
+      "origin": "operator-approved derived demonstration",
+      "sha256": "534acec293303d1f75017b5805be7e546c22f9f70a5f9a1368f53eb470cf24ec"
+    },
+    "media/yuanbao-conversation.mp4": {
+      "bytes": 31649588,
+      "origin": "operator-approved derived demonstration",
+      "sha256": "150605d3ef5968e0bcc1a0cbcb59649c3d8c2f07787f6cc1c8312738e2ca872a"
+    },
+    "pyproject.toml": {
+      "bytes": 813,
+      "origin": "tools/core_release/overlay/pyproject.toml",
+      "sha256": "bd09ce31eacb909b6657655c474c6eb6e633df8025d1a6f4845d6c490b1bc0c2"
+    },
+    "scripts/physical_computer_use/rsi_ledger_smoke.py": {
+      "bytes": 7628,
+      "origin": "scripts/physical_computer_use/rsi_ledger_smoke.py",
+      "sha256": "2ba2b2df95b8a488c39cf39e7b131466a143bd6d58353332347011f9fa1e0a3c"
+    },
+    "src/astra_robotics_agent/codex.py": {
+      "bytes": 55255,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/codex.py",
+      "sha256": "777550b32df725e5e1d5c211cc45180c21d0af3ec4e2919cd4c6a1434450e503"
+    },
+    "src/astra_robotics_agent/codex_isolation.py": {
+      "bytes": 6148,
+      "origin": "src/astra_robotics_agent/codex_isolation.py",
+      "sha256": "a37a4cce61313141903104c5891f7cd533d6500260a2850fcc1be52c176c4c64"
+    },
+    "src/astra_robotics_agent/physical_keyboard/__init__.py": {
+      "bytes": 777,
+      "origin": "src/astra_robotics_agent/physical_keyboard/__init__.py",
+      "sha256": "aea207d8d89a7014603e9dbb326c08cb2bf8005f7aeb3e75f8bf916f5be04ab9"
+    },
+    "src/astra_robotics_agent/physical_keyboard/_compat.py": {
+      "bytes": 723,
+      "origin": "src/astra_robotics_agent/physical_keyboard/_compat.py",
+      "sha256": "07aaf99c927b59baafa8637c7ec06925e3b9b30cace727feb6372131045504ac"
+    },
+    "src/astra_robotics_agent/physical_keyboard/_paths.py": {
+      "bytes": 308,
+      "origin": "src/astra_robotics_agent/physical_keyboard/_paths.py",
+      "sha256": "a30d1fb6214937dd1b438184523bcd072380e968c3520df76fb2e8004fbcfbbb"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/__init__.py": {
+      "bytes": 52,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/__init__.py",
+      "sha256": "7bcfee05921cf59b01fbb20f1c61c1befedba24fcc0b7d9af5a01950b24190cb"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/applications/__init__.py": {
+      "bytes": 65,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/applications/__init__.py",
+      "sha256": "9f6fc93b6a40ae72bd2529af7e443ee292a46e1a7b6d294f3f1923686a92e050"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_instructions.py": {
+      "bytes": 10100,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_instructions.py",
+      "sha256": "1c89d3a5b0a4c0d9788b14a32404319cf87c094a3501680dc7919ef79dc1fb9b"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_lifecycle.py": {
+      "bytes": 2894,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_lifecycle.py",
+      "sha256": "56489ef7e13ae26f8bb67cc3f8f8b53e4d70106b0e102977a812e4269b37c188"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_policy.py": {
+      "bytes": 7518,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_policy.py",
+      "sha256": "8a2eb55b4e53cf2c8bb51e0277ab2f993bf2a0e17764034188b66734f71506ec"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_service.py": {
+      "bytes": 12958,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/applications/chat_service.py",
+      "sha256": "4fd5439a78a7474585a792e290eb07aff3a4c3576a7ae4305f5e55997a4afc65"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/__init__.py": {
+      "bytes": 65,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/__init__.py",
+      "sha256": "bc74670ea86fa31074340177b3995e754de39aa9097f32dc4792675904095547"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/key_state.py": {
+      "bytes": 1218,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/key_state.py",
+      "sha256": "8b8c757681265c972758f7b852d20a99b6862910d1dd86b30421dd255bd48121"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/notepad_reset.py": {
+      "bytes": 18327,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/notepad_reset.py",
+      "sha256": "21ba4c3007d79687848586209b38c159a4b7a17d7f77b37c2b6c816db905b32c"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/skill_training.py": {
+      "bytes": 6907,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/skill_training.py",
+      "sha256": "5d5af4e68f93a929066943e5e5bfc560b8f5003a7f467da2f6c01e68e2e1b5eb"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/synthetic_keyboard.py": {
+      "bytes": 13025,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/synthetic_keyboard.py",
+      "sha256": "2ae551db1dc378bb4f2c8254c40f5ae7f683890095473913658e61681be18996"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/training_instructions.py": {
+      "bytes": 1604,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/training_instructions.py",
+      "sha256": "37612b62b30a7ab7c52056a2b855f4803bcb52ba638b6de93df3bf439938adf7"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/training_reset.py": {
+      "bytes": 7052,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/training_reset.py",
+      "sha256": "d78115afb408f447c73cbf8f988f9ed1e500785b9c843b4a13aa4bde2f75c649"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_cases.py": {
+      "bytes": 18254,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_cases.py",
+      "sha256": "b0014e14b15a2b7ec4007c11620e253e30a8edb2953b4b766a197082a6fcc733"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_lab.py": {
+      "bytes": 12903,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_lab.py",
+      "sha256": "b3a65cba0c952cafb027db425287fb7fd5e11de4a2f33bc6efcf023952fe4817"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_resume.py": {
+      "bytes": 5503,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_resume.py",
+      "sha256": "e81d006059df375242dc10d2a56b1e92d03318e64cde380acd7a70d5d38eafa0"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_schedule.py": {
+      "bytes": 5034,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/environments/typing_schedule.py",
+      "sha256": "b283ec0e56b3875f215cb7701325220e096ff335f8173084a61b42ceee9a8fb3"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/skill_sources/__init__.py": {
+      "bytes": 66,
+      "origin": "src/astra_robotics_agent/physical_keyboard/adapters/skill_sources/__init__.py",
+      "sha256": "7c767e83390236c7f55bf2e6c9c41f6b2eed336dd94ff314249b073f227f8a63"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/skill_sources/demo_support.py": {
+      "bytes": 931,
+      "input_sha256": "cb917325ea6c5f420e2a06260a92452341a50b6ace2a7216b6cd081b615d6aec",
+      "origin": "generic compatibility descriptor; playback instructions omitted",
+      "sha256": "3a53d3dc971952bead2fa968bc976f366f8efd1cf6e5932d1cc3cccd0f44eca5"
+    },
+    "src/astra_robotics_agent/physical_keyboard/adapters/skill_sources/learning_sources.py": {
+      "bytes": 29033,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/adapters/skill_sources/learning_sources.py",
+      "sha256": "5562733fb683be0ed488b0da67ac2c3d99160e99008ae90b3ecaded76eeaf574"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/__init__.py": {
+      "bytes": 49,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/__init__.py",
+      "sha256": "184cf2737c12b40132dd13fe128d19103aa5d1e425ceeb9df748273e0c878707"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/application.py": {
+      "bytes": 1050,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/application.py",
+      "sha256": "9e5758548d674b300bdcbb297fd9baaf67338fcdcb90accfdcb8030a9d5794b6"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/application_skill.py": {
+      "bytes": 5613,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/application_skill.py",
+      "sha256": "969d904d3072918bf90e02a74c13a6038611c177a4dea6c19d4f5bbeb9765e37"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/astra_bridge.py": {
+      "bytes": 8878,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/astra_bridge.py",
+      "sha256": "88600317e98c8ca5e9f3fdc30235c9ce47611a69dcc3d03caac65a64c0303c19"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/campaign.py": {
+      "bytes": 19882,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/campaign.py",
+      "sha256": "40cbba3b7a4d657788e27c551c9eb4773d19ee19ca9bc8870a3ab4c0860bc10d"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/development.py": {
+      "bytes": 20143,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/development.py",
+      "sha256": "14b23efb1d35d0e960c64b7a4b4ece1545f1282c9f4d2c3ce442660fca9fce64"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/execution_feedback.py": {
+      "bytes": 4130,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/execution_feedback.py",
+      "sha256": "093cb7f72f82e37e7c6493952f7356f0d444ef9a37e3d3c0d702520b65e653d1"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/execution_service.py": {
+      "bytes": 18491,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/agent/execution_service.py",
+      "sha256": "27ef9bf47544db5ff1012adc1eb03770c6a45cf97b7ec50b3d78cb5b541862df"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/fault_review.py": {
+      "bytes": 32419,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/fault_review.py",
+      "sha256": "7fc9b86a139c42bd072c53215d02df2fda68d750b2cfa24bca3bae1d7d855a80"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/hints.py": {
+      "bytes": 7726,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/hints.py",
+      "sha256": "4eab3c2fa5513518314bee4489a0aa349bfc46719bf5815551ad14ca4e9f289d"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/instructions.py": {
+      "bytes": 13057,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/agent/instructions.py",
+      "sha256": "ca42d6831e750a8716b508106210c03047a5b491f0b9f0561474e3a59bbc28f0"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/learning.py": {
+      "bytes": 29135,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/agent/learning.py",
+      "sha256": "43638974f1bb2a2288fef0cec26b4ddc766d7c4789516c066ba2eac775205a63"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/learning_boundary.py": {
+      "bytes": 2094,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/learning_boundary.py",
+      "sha256": "94c63f7ef28dc76d280e1e3d33d505bec81c56c4cc49a3db763e00ed632c1f4c"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/learning_loop.py": {
+      "bytes": 62711,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/learning_loop.py",
+      "sha256": "936877b917b1a608730e540f87d7fd0c891366cc4323970aa873a41dd57dbe4f"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/offline_session.py": {
+      "bytes": 3440,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/agent/offline_session.py",
+      "sha256": "3ed8cade5890e886428e3f9479cf26094fac53e9467ec1eba59a8de2bac34faa"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/providers.py": {
+      "bytes": 1521,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/agent/providers.py",
+      "sha256": "52c9dd52d8a88de1935f95328f1adb4f2343cbadfc3a18aea900e2ffcb18b59c"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/runner.py": {
+      "bytes": 7992,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/agent/runner.py",
+      "sha256": "9304a8a942a1ebb07d45551cab49b263fc82fbc2e2960e711ee838029c03e119"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/trial_runner.py": {
+      "bytes": 25032,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/trial_runner.py",
+      "sha256": "997e809889af79b9ebcc02544e657e33b5c59f040570538329af92a148445f37"
+    },
+    "src/astra_robotics_agent/physical_keyboard/agent/work_context.py": {
+      "bytes": 17933,
+      "origin": "src/astra_robotics_agent/physical_keyboard/agent/work_context.py",
+      "sha256": "56a476e431d9e0b6bc9fe358f49b238d99280567ef49d80d00450e411a702d8b"
+    },
+    "src/astra_robotics_agent/physical_keyboard/astra_bridge.py": {
+      "bytes": 268,
+      "origin": "src/astra_robotics_agent/physical_keyboard/astra_bridge.py",
+      "sha256": "81baafe7c7bee1d8b00df52efe9b59abf1110340d8ef36926fa595cc32a8fdc8"
+    },
+    "src/astra_robotics_agent/physical_keyboard/campaign.py": {
+      "bytes": 260,
+      "origin": "src/astra_robotics_agent/physical_keyboard/campaign.py",
+      "sha256": "ced1b2f4448ab0c02fad02535190016a56605390f74a321f0028a22c7082f2fc"
+    },
+    "src/astra_robotics_agent/physical_keyboard/chat_policy.py": {
+      "bytes": 298,
+      "origin": "src/astra_robotics_agent/physical_keyboard/chat_policy.py",
+      "sha256": "b982651fc3d4adcb1b05a797f76a085360001dc2ca4b354528e825ae4764c35f"
+    },
+    "src/astra_robotics_agent/physical_keyboard/chat_service.py": {
+      "bytes": 300,
+      "origin": "src/astra_robotics_agent/physical_keyboard/chat_service.py",
+      "sha256": "db09f53b259986d793be5d396c0f2a943a9e561d03396a399320896bda5058db"
+    },
+    "src/astra_robotics_agent/physical_keyboard/contracts.py": {
+      "bytes": 266,
+      "origin": "src/astra_robotics_agent/physical_keyboard/contracts.py",
+      "sha256": "d2960f02a3aa7b5eaaa747233dbe8f867910df9e9154e090cbbb2fb7c94feb61"
+    },
+    "src/astra_robotics_agent/physical_keyboard/demo_support.py": {
+      "bytes": 302,
+      "origin": "src/astra_robotics_agent/physical_keyboard/demo_support.py",
+      "sha256": "604a5020f9ba81784cb0fe37f2b89ddba0a29531106877172e5b61390f4329d1"
+    },
+    "src/astra_robotics_agent/physical_keyboard/episode_review.py": {
+      "bytes": 276,
+      "origin": "src/astra_robotics_agent/physical_keyboard/episode_review.py",
+      "sha256": "cf9d1b2f8b8af2d3feb0297a18dcb31620cc8139d38519dfc4f8a8fbedd5b21b"
+    },
+    "src/astra_robotics_agent/physical_keyboard/executable.py": {
+      "bytes": 268,
+      "origin": "src/astra_robotics_agent/physical_keyboard/executable.py",
+      "sha256": "31bb7bc70605fa8034b49407c4b1a2a7491299df9dcf58165c79fae4b00c73e8"
+    },
+    "src/astra_robotics_agent/physical_keyboard/framework_layout.py": {
+      "bytes": 8111,
+      "input_sha256": "a1f09792956673136ee00dac9a973d1002d99f7497c526bf99923ff5a438caf2",
+      "origin": "filtered registry; unchanged validator",
+      "sha256": "bbd8da066bd04be8fff746e96312c378dd836b560847ce26837462c8a7f1280e"
+    },
+    "src/astra_robotics_agent/physical_keyboard/hints.py": {
+      "bytes": 254,
+      "origin": "src/astra_robotics_agent/physical_keyboard/hints.py",
+      "sha256": "8baf47880fb83dc5163f48c624f18ff10f57fcc6778bce5a163bafb50705ad1b"
+    },
+    "src/astra_robotics_agent/physical_keyboard/knowledge.py": {
+      "bytes": 264,
+      "origin": "src/astra_robotics_agent/physical_keyboard/knowledge.py",
+      "sha256": "5cfcdd68798bb13f2a576ff3fa6fb24970e0f8e0cb2e119ebf794b8b700ddc37"
+    },
+    "src/astra_robotics_agent/physical_keyboard/learning_loop.py": {
+      "bytes": 270,
+      "origin": "src/astra_robotics_agent/physical_keyboard/learning_loop.py",
+      "sha256": "137d74ef02060963357cd8b3a972063c6aeaa4fcc09b699f82fd6ecfd3162045"
+    },
+    "src/astra_robotics_agent/physical_keyboard/ledger.py": {
+      "bytes": 260,
+      "origin": "src/astra_robotics_agent/physical_keyboard/ledger.py",
+      "sha256": "c95394eb65dba03e95b4efb7f979c9c678284a137dd6ec6e8ed489a9fdfdeb8e"
+    },
+    "src/astra_robotics_agent/physical_keyboard/notepad_reset.py": {
+      "bytes": 500,
+      "origin": "src/astra_robotics_agent/physical_keyboard/notepad_reset.py",
+      "sha256": "f8133568cb7782b32cd5d01a3dfa2ca13c3e828fb38df4d9f1d46a77e4bc8e29"
+    },
+    "src/astra_robotics_agent/physical_keyboard/python_worker.py": {
+      "bytes": 458,
+      "origin": "src/astra_robotics_agent/physical_keyboard/python_worker.py",
+      "sha256": "16ba859e3e63c766bb8223ca94c9d754c1f085c3cc424c42d88fa853d89a437d"
+    },
+    "src/astra_robotics_agent/physical_keyboard/recording_review.py": {
+      "bytes": 280,
+      "origin": "src/astra_robotics_agent/physical_keyboard/recording_review.py",
+      "sha256": "0e02e0ebbf961ac747ae1cd9dc8ddda7799144971fe5c742ff67245d2b3bbcdc"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/__init__.py": {
+      "bytes": 51,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/__init__.py",
+      "sha256": "a3b61ca7893f42bef1137c007f84a67b60758ddc337d90e80a7d3618236a8281"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/admission.py": {
+      "bytes": 2043,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/admission.py",
+      "sha256": "2da0f943076316f892e39a8d95a56598b6b6c5a70868a4317ab05230023f5c86"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/contracts.py": {
+      "bytes": 4269,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/contracts.py",
+      "sha256": "3f2d41818d1beec35fe7b03ba2fc7eb924194f822cdcd41c64ffc36a2f5574a5"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/episode_review.py": {
+      "bytes": 12875,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/episode_review.py",
+      "sha256": "ade6e2a03e9125716e7de87771e7765ebe37de6ebbe009ed50012d5e713c06c5"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/evidence_archive.py": {
+      "bytes": 23356,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/evidence_archive.py",
+      "sha256": "75ef901088d0fde6e7d41b8048de85acc070b620c4ade1a0df0b3430a8798a40"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/journal.py": {
+      "bytes": 3794,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/journal.py",
+      "sha256": "8e91c8052156cc0b9ad3328f38390131fe63cdd8dd25f2b6b1ddd954e8b9d238"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/knowledge_domains.py": {
+      "bytes": 2890,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/knowledge_domains.py",
+      "sha256": "6315af25c7c2bfe728cf79cb1c33dd92e3ee7c42cf58db03acf99d6e6937ab31"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/learning_access.py": {
+      "bytes": 4844,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/learning_access.py",
+      "sha256": "a6548d7b996f74a0679a25ba3e2904ed56aacde6b482e594649a5e71e98068b8"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/learning_contracts.py": {
+      "bytes": 5044,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/learning_contracts.py",
+      "sha256": "b7ee6ff1290173ebe8666137f57869396cd44cee5615e8fe1e6e83fb0724d865"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/ledger.py": {
+      "bytes": 24741,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/ledger.py",
+      "sha256": "9997da9faa7dbd855da7e8d56d9b7b639a5328277bdbcdfc5b4a117571917294"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/own_sources.py": {
+      "bytes": 2593,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/own_sources.py",
+      "sha256": "f354637948bd9741c2a86edca680c5ec6b7d92b4294fa902e76bf31e4dcf47f4"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/recording_review.py": {
+      "bytes": 8740,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/recording_review.py",
+      "sha256": "33f29059870a0c04909ef5ddfaca202dfdd99185472e33753f8fb957a5befa27"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/redaction.py": {
+      "bytes": 2573,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/records/redaction.py",
+      "sha256": "d8809eab7c656758e5897ef3d966737863fc812114f3035b56881ec67d875822"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/review_watcher.py": {
+      "bytes": 5088,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/review_watcher.py",
+      "sha256": "2cffaffd9aa6ef0c83ee1c60eaa1b626eaadcc31ad44a4d9445d3db67aa9ced7"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/run_recording.py": {
+      "bytes": 4490,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/run_recording.py",
+      "sha256": "833165962b06203bf1dbbf302db2811c8c2a2f7217336a9a80dcffe327022431"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/source_inputs.py": {
+      "bytes": 2959,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/source_inputs.py",
+      "sha256": "5027461fdb1038a2039a80f485d330ed2c6f49740737b438cac20e21c504d471"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/storage.py": {
+      "bytes": 2636,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/storage.py",
+      "sha256": "6f99a0bfb0013285de9f5d109319674eb2105aa0bcea2ee920f290ccca90cf47"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/trajectory_diagnostics.py": {
+      "bytes": 55932,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/trajectory_diagnostics.py",
+      "sha256": "808bc3eb7c03d6f18ba474eed9a186b3752bb95810b2be3e7f49afe507105212"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/typing_metrics.py": {
+      "bytes": 56469,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/typing_metrics.py",
+      "sha256": "1758c815ee52e573f494d9e24e04cd0611d26889c3418d63d57d3ffab802b697"
+    },
+    "src/astra_robotics_agent/physical_keyboard/records/usage.py": {
+      "bytes": 4628,
+      "origin": "src/astra_robotics_agent/physical_keyboard/records/usage.py",
+      "sha256": "a6eeb26fc896a1d8b2d582fd08da0b58f961f68d4e8c1d3ef07353880d033bc9"
+    },
+    "src/astra_robotics_agent/physical_keyboard/review_watcher.py": {
+      "bytes": 461,
+      "origin": "src/astra_robotics_agent/physical_keyboard/review_watcher.py",
+      "sha256": "02ff6b9953f93de6841bca6787469e3c5e00d4942bb0ca4e4e7bb28e7fe81e66"
+    },
+    "src/astra_robotics_agent/physical_keyboard/rpc.py": {
+      "bytes": 428,
+      "origin": "src/astra_robotics_agent/physical_keyboard/rpc.py",
+      "sha256": "31f9c5912915f5953d5c6ee4af980251a1e2ecad5059f2a417ec2b777a9f31c8"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/__init__.py": {
+      "bytes": 51,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/__init__.py",
+      "sha256": "9432b28d32c505f0c39473ab08f75d2c1880f185ed33d1c9efd8e815b591a5a0"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/analysis_worker.py": {
+      "bytes": 12142,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/analysis_worker.py",
+      "sha256": "135d09026dbd5fcd80d6a8f8a83b59796352ef4eb65480c6d3be183529476c8c"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/backends/__init__.py": {
+      "bytes": 60,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/backends/__init__.py",
+      "sha256": "b4b5d9309cece3c39956da64bb16b70cf21917ac56fea71a1002ca15ae9f3c24"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/control_protocol.py": {
+      "bytes": 3278,
+      "input_sha256": "e2bed6884147a471be0431150fe799aa6a4155e67a273b78c4bd0f217024208c",
+      "origin": "extracted audit/serialization helpers",
+      "sha256": "01b074b749735c45922993660a5f9db96351dedd8135d8715d55921e7eacc317"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/device_adapter.py": {
+      "bytes": 7699,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/runtime/device_adapter.py",
+      "sha256": "4ea78261ff1988333ffe2c5348b9ac98c29d26376797a4e567c1f431affbf5a6"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/executable.py": {
+      "bytes": 4257,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/executable.py",
+      "sha256": "7e8693e33823319643e0e75a6e5af06eab65c9f1d705c44bfa284fc2b6cfc082"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/mock_device.py": {
+      "bytes": 6118,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/runtime/mock_device.py",
+      "sha256": "df523455c07f3d0a486658df76dd7112b799e468174b1efa9f288a9102a45bd8"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/observations.py": {
+      "bytes": 2336,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/observations.py",
+      "sha256": "33d19e9d822f5ca8b18d1b9320b5c8d6e899916c549bd747f8bed6b8c2d885c9"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/program_runtime.py": {
+      "bytes": 13240,
+      "origin": "tools/core_release/overlay/src/astra_robotics_agent/physical_keyboard/runtime/program_runtime.py",
+      "sha256": "5c779c19bf2611e678de4ea45ccda3b89f9dc10bab04d288b27232ee0022676d"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/python_worker.py": {
+      "bytes": 8948,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/python_worker.py",
+      "sha256": "c4e32f97d768f65729733a7d5ddfef0d30a7982336b5b845b1d40f33aa54452b"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/remote_host.py": {
+      "bytes": 16407,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/remote_host.py",
+      "sha256": "1f115ab9d7b55c0f864ce6f94bec63db988189614b537efb0accd66003b561d0"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/request_lifecycle.py": {
+      "bytes": 14735,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/request_lifecycle.py",
+      "sha256": "0369b2d824be65cdf68aedffa45bb3c5f03a4ad02c002f34692f723edd2b2696"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/rpc.py": {
+      "bytes": 23983,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/rpc.py",
+      "sha256": "58cf187eabb0b27c538b9059666e295fc6275d5db7c71356b80e33a25aef225b"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/skill_language.py": {
+      "bytes": 40288,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/skill_language.py",
+      "sha256": "e527f1008ffb05248bdbb80ffec763d4bff0fb0d5dfb738acb04d5a7d8858a0c"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/transport.py": {
+      "bytes": 10037,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/transport.py",
+      "sha256": "603dea8123e48e5e5bbf5c221cb72695646b43eadeb3053637106a6f14bf4a31"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/visual_update.py": {
+      "bytes": 9205,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/visual_update.py",
+      "sha256": "c2c770c134fd901d5787383ef998e94c3a0421fe8d6ec44a083eb5a4e2d0c00a"
+    },
+    "src/astra_robotics_agent/physical_keyboard/runtime/worker.py": {
+      "bytes": 6119,
+      "origin": "src/astra_robotics_agent/physical_keyboard/runtime/worker.py",
+      "sha256": "47f841f82f8398aefaf8b39c93d2b641918049177a77fadea6992c7485a6b2e4"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skill_language.py": {
+      "bytes": 276,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skill_language.py",
+      "sha256": "3ab2cb55114648d12501168d3bc4101f3a939c5895d3f3a12eff5172c7090115"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/__init__.py": {
+      "bytes": 50,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/__init__.py",
+      "sha256": "af303e7f3242906b2f8b63624271f7db0879b0b1a640d1dce94c4af5d0584bd2"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/current_view.py": {
+      "bytes": 9356,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/current_view.py",
+      "sha256": "c6596cbf3aaa01cf44317f78ab2d2e2c4904ad89f1358f73ccc9bd97d351ec78"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/development.py": {
+      "bytes": 46673,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/development.py",
+      "sha256": "3b909aeb7bbf618e003199d3f7bbb36ccff92a864ae1d091ecf762f0ddc1e735"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/knowledge.py": {
+      "bytes": 32919,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/knowledge.py",
+      "sha256": "a13ffb20df3bc51982d594f77390fe9c32c14a725a20ede2bfbb6eaeb4b5de97"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/learning_attention.py": {
+      "bytes": 20724,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/learning_attention.py",
+      "sha256": "6f7e468a6abdfb06209e4477b99f059b9ad2fb1ef26a1a6b8829e2e9033a4497"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/learning_changes.py": {
+      "bytes": 41742,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/learning_changes.py",
+      "sha256": "9ae6b9a0f64e885ddf3a0192fbc0a2ca14a1c70269e38db09969e2fd6ee3b5bd"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/programs.py": {
+      "bytes": 17601,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/programs.py",
+      "sha256": "a6f9d62e390933f6df53086bfd2bc382a8afa260760c0021038967aedba67b11"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/read_scope.py": {
+      "bytes": 7659,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/read_scope.py",
+      "sha256": "f91757c55cd5b48ad9d0451406ef67a04ea71c78c2f01fcbd565d6db590470cd"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/reader.py": {
+      "bytes": 7959,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/reader.py",
+      "sha256": "06ef154f102de0db74b0af47f85878e1147abb2c4d73fd3d3b2a40868e03f90f"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/recall.py": {
+      "bytes": 14460,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/recall.py",
+      "sha256": "e68c61b0668e5e300b5a1d9c6141f51d5086890291414cf5be88fc95e4d5a951"
+    },
+    "src/astra_robotics_agent/physical_keyboard/skills/resources.py": {
+      "bytes": 6824,
+      "origin": "src/astra_robotics_agent/physical_keyboard/skills/resources.py",
+      "sha256": "5fea29f58b80e1e9b114d21c69305fcf19d03310d3e67608a3b5b3ed40cf15ad"
+    },
+    "src/astra_robotics_agent/physical_keyboard/synthetic_keyboard.py": {
+      "bytes": 312,
+      "origin": "src/astra_robotics_agent/physical_keyboard/synthetic_keyboard.py",
+      "sha256": "99922e218f2a434281d84a07970c20ebe180b08437893e76c5bd8b278ac32736"
+    },
+    "src/astra_robotics_agent/physical_keyboard/training_reset.py": {
+      "bytes": 304,
+      "origin": "src/astra_robotics_agent/physical_keyboard/training_reset.py",
+      "sha256": "0904abd9ff2ce5f483a067b6069e9681e4270285e5d639822b321d94802da0a6"
+    },
+    "src/astra_robotics_agent/physical_keyboard/transport.py": {
+      "bytes": 266,
+      "origin": "src/astra_robotics_agent/physical_keyboard/transport.py",
+      "sha256": "475a7c1237e08ac188d852704b345a3d1acdbb95b4b1c9613792357d19ca01f2"
+    },
+    "src/astra_robotics_agent/physical_keyboard/trial_runner.py": {
+      "bytes": 268,
+      "origin": "src/astra_robotics_agent/physical_keyboard/trial_runner.py",
+      "sha256": "0107d096cb5c7a9d8d871f913af92bbbe7f4d7d117e23910b162d6b2ff58286e"
+    },
+    "src/astra_robotics_agent/physical_keyboard/visual_update.py": {
+      "bytes": 274,
+      "origin": "src/astra_robotics_agent/physical_keyboard/visual_update.py",
+      "sha256": "b08a3df4421229d41213fb7a1e98cd67ac8acce53f23165e9945af5082e4126d"
+    },
+    "src/astra_robotics_agent/physical_keyboard/worker.py": {
+      "bytes": 437,
+      "origin": "src/astra_robotics_agent/physical_keyboard/worker.py",
+      "sha256": "bc0932e3357f15da24879531c708d6bcc2326a4251ca422abb88dfff0339ed6c"
+    },
+    "tests/test_device_adapter.py": {
+      "bytes": 7553,
+      "origin": "tools/core_release/overlay/tests/test_device_adapter.py",
+      "sha256": "6f11b85d32ad7472802ceb03c475c6982f92f2556e7071688aaac6ecbbfe9d1d"
+    },
+    "tests/test_external_station_example.py": {
+      "bytes": 5782,
+      "origin": "tools/core_release/overlay/tests/test_external_station_example.py",
+      "sha256": "1a0341c46afdb003c0425f3c9b170a3a1a6e734b2a32627a53b64fab21a6e0f9"
+    },
+    "tests/test_generic_execution_recovery.py": {
+      "bytes": 3273,
+      "origin": "tools/core_release/overlay/tests/test_generic_execution_recovery.py",
+      "sha256": "7fb8dc4c209e47c9eaa23c69084481f0eceb592dbc87176b71950cdcd9d10c93"
+    },
+    "tests/test_generic_learning_evidence.py": {
+      "bytes": 8568,
+      "origin": "tools/core_release/overlay/tests/test_generic_learning_evidence.py",
+      "sha256": "fb8ef53145d9c1fd506eff848ae655d3c2eab50de3526245a3750fe65cf337bd"
+    },
+    "tests/test_keyboard_analysis_worker.py": {
+      "bytes": 6117,
+      "origin": "tests/test_keyboard_analysis_worker.py",
+      "sha256": "484b9a3f9a4e62a854fd3bcd4afa4a57076475d21e8e88688347e3aaf0b7614d"
+    },
+    "tests/test_keyboard_application_knowledge_core.py": {
+      "bytes": 14254,
+      "origin": "tests/test_keyboard_application_knowledge_core.py",
+      "sha256": "1c375b58a182cae97bad2aee1217cf5fa3befbd8d6590c8f8e9f14b3c1e63314"
+    },
+    "tests/test_keyboard_astra_bridge.py": {
+      "bytes": 6472,
+      "origin": "tests/test_keyboard_astra_bridge.py",
+      "sha256": "1805a26eef49f8604c110c32c5528594496f32dcb07ff65532605f8634730000"
+    },
+    "tests/test_keyboard_campaign.py": {
+      "bytes": 16084,
+      "origin": "tests/test_keyboard_campaign.py",
+      "sha256": "60896e518a34e12b7ae666082581cfbb2e2bc8b18cad53c916b2878157f77495"
+    },
+    "tests/test_keyboard_chat_policy.py": {
+      "bytes": 6527,
+      "origin": "tests/test_keyboard_chat_policy.py",
+      "sha256": "477a6e014c5f258f0fc63c6196c49ce46bdd5b49f0edbb6b055b45667c3d5ddc"
+    },
+    "tests/test_keyboard_chat_service.py": {
+      "bytes": 22641,
+      "origin": "tests/test_keyboard_chat_service.py",
+      "sha256": "0d1bb2ae9ba4ebcac0b4f207e9c022285ac6d556ace599fa44c444e0ed0ae636"
+    },
+    "tests/test_keyboard_context_costs.py": {
+      "bytes": 9663,
+      "origin": "tests/test_keyboard_context_costs.py",
+      "sha256": "3d47ec4409716cf9d845dfa5e86d9b711ab60fa8ecb4131333909c6289f9c8ed"
+    },
+    "tests/test_keyboard_continual_actions.py": {
+      "bytes": 19290,
+      "origin": "tests/test_keyboard_continual_actions.py",
+      "sha256": "3f9d8a3a2207bdfd7f3da194683c95062dd96b4b12cb14ccea3d242f9d6ff0b9"
+    },
+    "tests/test_keyboard_continual_boundary.py": {
+      "bytes": 17260,
+      "origin": "tests/test_keyboard_continual_boundary.py",
+      "sha256": "2ea331300b308a4b933f21d86ca5abf7f3a73ef15d0e52f0a4fd4fcf3acbe30b"
+    },
+    "tests/test_keyboard_continual_fault.py": {
+      "bytes": 13743,
+      "origin": "tests/test_keyboard_continual_fault.py",
+      "sha256": "9b3c9a5a166a813cba581041d223cfff4b53e5b25119af7de0df43406a471470"
+    },
+    "tests/test_keyboard_continual_integration.py": {
+      "bytes": 15711,
+      "origin": "tests/test_keyboard_continual_integration.py",
+      "sha256": "c4e2dc4d4f56a1e8775546877568d6f1566c38099f23c67c7af6d8934893bae3"
+    },
+    "tests/test_keyboard_continuous_learning.py": {
+      "bytes": 12297,
+      "origin": "tools/core_release/overlay/tests/test_keyboard_continuous_learning.py",
+      "sha256": "fec2be26b217f97361e2c1492d93d7ae568c554235741f18750f15d1376b6ee1"
+    },
+    "tests/test_keyboard_current_view.py": {
+      "bytes": 15230,
+      "origin": "tests/test_keyboard_current_view.py",
+      "sha256": "fb5755d4e8778709004bae98afd9b76e543ffd1db5e984179748f2e6a35f5349"
+    },
+    "tests/test_keyboard_enter_skill_reuse.py": {
+      "bytes": 10981,
+      "origin": "tests/test_keyboard_enter_skill_reuse.py",
+      "sha256": "219041a475ddea257e8aa6de1707418e4dec2b8cc7d2bd7a151340e95c4aef1e"
+    },
+    "tests/test_keyboard_episode_review.py": {
+      "bytes": 14562,
+      "origin": "tests/test_keyboard_episode_review.py",
+      "sha256": "6d278ea4d0a321c479d9eb1e6203a7afad59b1412176645ab433685ad1bec064"
+    },
+    "tests/test_keyboard_evidence_archive.py": {
+      "bytes": 12592,
+      "origin": "tests/test_keyboard_evidence_archive.py",
+      "sha256": "82060622865c97d003f60c4af2481f339990a04ce9afb86f5520479aeaa42267"
+    },
+    "tests/test_keyboard_execution_service.py": {
+      "bytes": 21034,
+      "origin": "tools/core_release/overlay/tests/test_keyboard_execution_service.py",
+      "sha256": "01900f237fe4e690a301f982dc8ed2d02866670c046149e094c2a1eca9741c5a"
+    },
+    "tests/test_keyboard_fault_review.py": {
+      "bytes": 21644,
+      "origin": "tests/test_keyboard_fault_review.py",
+      "sha256": "7a84feb5eb565bb608c1e30aef75cca4e187b910ede86ac6bb9be4a6edac351b"
+    },
+    "tests/test_keyboard_hints.py": {
+      "bytes": 12067,
+      "origin": "tests/test_keyboard_hints.py",
+      "sha256": "aed42b00da346a8e787eb7e10cdd60f73e4c1fe3d7cbc68cf730a73f2389d84e"
+    },
+    "tests/test_keyboard_improvement_backlog.py": {
+      "bytes": 11029,
+      "origin": "tests/test_keyboard_improvement_backlog.py",
+      "sha256": "31158f16501240dea16fc965f9b5a196f7b02a7de62327310a84008ba372d561"
+    },
+    "tests/test_keyboard_knowledge.py": {
+      "bytes": 15647,
+      "origin": "tests/test_keyboard_knowledge.py",
+      "sha256": "635dd22cf78102b6b652bf265f69edf6f6db8621c0bda2579efe0614c7b97aae"
+    },
+    "tests/test_keyboard_knowledge_read_scale.py": {
+      "bytes": 9069,
+      "origin": "tests/test_keyboard_knowledge_read_scale.py",
+      "sha256": "8bd205dd23f84dd178be47e5caa60f8b736da2bb175463437e8fb77bd7ad5e84"
+    },
+    "tests/test_keyboard_learning_access.py": {
+      "bytes": 11802,
+      "origin": "tools/core_release/overlay/tests/test_keyboard_learning_access.py",
+      "sha256": "e2c00ae35ff12f198ee0d2130ea5b8df637654754d4b53221095454f32486873"
+    },
+    "tests/test_keyboard_learning_attention.py": {
+      "bytes": 14601,
+      "origin": "tests/test_keyboard_learning_attention.py",
+      "sha256": "4685c65b36e86648e29154acfcb0b512dbc1cdbfe88def45b53b22b7b0f03825"
+    },
+    "tests/test_keyboard_learning_changes.py": {
+      "bytes": 13931,
+      "origin": "tests/test_keyboard_learning_changes.py",
+      "sha256": "bc862dec835ff790d6bf55ca8ce7dc0dc8bea1cd12b27f0c8d3e52ba62f8cc79"
+    },
+    "tests/test_keyboard_learning_journal.py": {
+      "bytes": 2525,
+      "origin": "tests/test_keyboard_learning_journal.py",
+      "sha256": "b13905b39814439b3c0ee85c9bb83368d8a56372335e73dd4e1c27c63b98aeaa"
+    },
+    "tests/test_keyboard_learning_loop.py": {
+      "bytes": 17437,
+      "origin": "tests/test_keyboard_learning_loop.py",
+      "sha256": "4e504f14413c72a79688e8f60bfc09b5ad78802e02cdf62260b11c1d609fafd4"
+    },
+    "tests/test_keyboard_learning_reader.py": {
+      "bytes": 3579,
+      "origin": "tests/test_keyboard_learning_reader.py",
+      "sha256": "7110a59a17b8cddfab362f8f421a84637f498510a41f3ad45214d463d1debac8"
+    },
+    "tests/test_keyboard_learning_resources.py": {
+      "bytes": 6544,
+      "origin": "tests/test_keyboard_learning_resources.py",
+      "sha256": "70f26361557e9d7909b59d1f43bf3ab14a5d37e6637babcd337d6f195ad09148"
+    },
+    "tests/test_keyboard_long_execution_transport.py": {
+      "bytes": 7314,
+      "origin": "tools/core_release/overlay/tests/test_keyboard_long_execution_transport.py",
+      "sha256": "f3ce1945d525ad47dbfe040e5b46cad3369503f818aa6d20b7adf8ae4c78bd9c"
+    },
+    "tests/test_keyboard_notepad_reset.py": {
+      "bytes": 15639,
+      "origin": "tools/core_release/overlay/tests/test_keyboard_notepad_reset.py",
+      "sha256": "adcf21a779b5fe6db55108f9e3b29f7aecf6605bfa0987e2c8bcbd195adc4135"
+    },
+    "tests/test_keyboard_online_rsi_loop.py": {
+      "bytes": 19020,
+      "origin": "tests/test_keyboard_online_rsi_loop.py",
+      "sha256": "29527977ead6bb9d6525a3c8e23e9465b64787dc1466bad69891efe0723829d3"
+    },
+    "tests/test_keyboard_own_sources.py": {
+      "bytes": 3275,
+      "origin": "tools/core_release/overlay/tests/test_keyboard_own_sources.py",
+      "sha256": "133b7e2936f83349ae319f6176bd1b3a5448aa2561b0649f0ed5412152687b09"
+    },
+    "tests/test_keyboard_persistent_loop.py": {
+      "bytes": 18152,
+      "origin": "tests/test_keyboard_persistent_loop.py",
+      "sha256": "548e6c52e529dd7b8922c49f85ac61fadb30166045ec364b149dd2758c244d3c"
+    },
+    "tests/test_keyboard_python_runner.py": {
+      "bytes": 26062,
+      "origin": "tests/test_keyboard_python_runner.py",
+      "sha256": "f2ab5d8b6f31b0b04e038e90eff83c8e82b777f2a0a3bc8595b2e0651a16aa26"
+    },
+    "tests/test_keyboard_python_worker.py": {
+      "bytes": 14842,
+      "origin": "tests/test_keyboard_python_worker.py",
+      "sha256": "64be59724a91bd8e1d5bc88ef0e5354cb5bfe86b7a3109a57fb946516da2830f"
+    },
+    "tests/test_keyboard_read_snapshot_boundaries.py": {
+      "bytes": 8509,
+      "origin": "tests/test_keyboard_read_snapshot_boundaries.py",
+      "sha256": "fa8348ddf8a5a99235597f08dce7aeca9dc62a992ee913646490ebe75ec8be48"
+    },
+    "tests/test_keyboard_recording_review.py": {
+      "bytes": 8043,
+      "origin": "tests/test_keyboard_recording_review.py",
+      "sha256": "63ef99d203b9009a80d296f965e797e047033c174541264d87745e233c60542a"
+    },
+    "tests/test_keyboard_request_lifecycle.py": {
+      "bytes": 19309,
+      "origin": "tools/core_release/overlay/tests/test_keyboard_request_lifecycle.py",
+      "sha256": "92b9fdf6cafcbee223af663474d203cd6b6a80ac5d990d611bc4914453d9ed0a"
+    },
+    "tests/test_keyboard_review_watcher.py": {
+      "bytes": 3668,
+      "origin": "tests/test_keyboard_review_watcher.py",
+      "sha256": "75e3a8a22c1776f77ecf401ea9073e8016be5876bd51d793c2ffcbecee70b7ae"
+    },
+    "tests/test_keyboard_rpc.py": {
+      "bytes": 17327,
+      "origin": "tests/test_keyboard_rpc.py",
+      "sha256": "c0325f4a201626d2bc19ee1983712f838d6afc69fb65eb422e558ad5a8b83895"
+    },
+    "tests/test_keyboard_rsi_ledger.py": {
+      "bytes": 20548,
+      "origin": "tests/test_keyboard_rsi_ledger.py",
+      "sha256": "896abfc0feea19ce5803b75ad97c9a9f2c8cfe158d7fb73a3996ca0ec81d65af"
+    },
+    "tests/test_keyboard_run_recording.py": {
+      "bytes": 8720,
+      "origin": "tests/test_keyboard_run_recording.py",
+      "sha256": "155a91ec521c464757a8172ab727e456f29b7590c9d22be51d80b84d33f5fda0"
+    },
+    "tests/test_keyboard_skill_development.py": {
+      "bytes": 29279,
+      "origin": "tests/test_keyboard_skill_development.py",
+      "sha256": "f71eb80c4decf704e1412bd6652bb5f0f5a36bfc2d9cc869a2bb9841163eac76"
+    },
+    "tests/test_keyboard_skill_development_loop.py": {
+      "bytes": 21901,
+      "origin": "tests/test_keyboard_skill_development_loop.py",
+      "sha256": "a9f0de719a6a203277321544d18ce9f9e452ff116fb0cb8d02d6eadbb856b389"
+    },
+    "tests/test_keyboard_skill_language.py": {
+      "bytes": 14802,
+      "origin": "tests/test_keyboard_skill_language.py",
+      "sha256": "effce9628405f15681e5d9a09af7014393dec3080e6edebac08e55f2421e4d19"
+    },
+    "tests/test_keyboard_skill_programs.py": {
+      "bytes": 13426,
+      "origin": "tests/test_keyboard_skill_programs.py",
+      "sha256": "49be9481d1e1f4e4661587ccb84420c8401763d6ecce5cd4cbca508f9d7d4431"
+    },
+    "tests/test_keyboard_skill_recall.py": {
+      "bytes": 18381,
+      "origin": "tests/test_keyboard_skill_recall.py",
+      "sha256": "f1f5ed174a1d2e3f55eb21ca9b47c930953ef8e8bbc153acca798fced24dc46e"
+    },
+    "tests/test_keyboard_synthetic_keyboard.py": {
+      "bytes": 15610,
+      "origin": "tests/test_keyboard_synthetic_keyboard.py",
+      "sha256": "4f7ac50b8938e2a20fc1665863b1f2246eb81e276a74ce2cd818bb511bfee6b2"
+    },
+    "tests/test_keyboard_training_reset.py": {
+      "bytes": 27439,
+      "origin": "tests/test_keyboard_training_reset.py",
+      "sha256": "f53c860a0a6f85d5bdf74d09542ba9950f7ea29f33d911e90db1582abb2a68b6"
+    },
+    "tests/test_keyboard_trial_runner.py": {
+      "bytes": 21203,
+      "origin": "tests/test_keyboard_trial_runner.py",
+      "sha256": "6edcd34965f530d790c39ca34002498591afb4721c0c62f6ab38d5c816f3a761"
+    },
+    "tests/test_keyboard_typing_cases.py": {
+      "bytes": 11274,
+      "origin": "tests/test_keyboard_typing_cases.py",
+      "sha256": "5819b0f8ac09b171662a4e3195d94b1cd731876efc14a2ac7ed47afeda2143d7"
+    },
+    "tests/test_keyboard_typing_lab.py": {
+      "bytes": 7802,
+      "origin": "tests/test_keyboard_typing_lab.py",
+      "sha256": "cce1a3a20c264bb1a42c8be138f048b7d63421f1c7d9e7531ba725c61ad91a1e"
+    },
+    "tests/test_keyboard_typing_metrics.py": {
+      "bytes": 37144,
+      "origin": "tests/test_keyboard_typing_metrics.py",
+      "sha256": "2bdc59f7d297670a17b498f31f680263dbe1cad7da4feb9991b788e609f0e947"
+    },
+    "tests/test_keyboard_typing_resume.py": {
+      "bytes": 6435,
+      "origin": "tests/test_keyboard_typing_resume.py",
+      "sha256": "56a747f3ae8e106959c12269357213a5f33226ca17dfa2817ba4207e9d6e0686"
+    },
+    "tests/test_keyboard_typing_schedule.py": {
+      "bytes": 7761,
+      "origin": "tests/test_keyboard_typing_schedule.py",
+      "sha256": "27ed4c48f4e747efb5d33167dc41cf602a9e5ce6656571e0a5e27580a5a367bd"
+    },
+    "tests/test_keyboard_usage_normalization.py": {
+      "bytes": 11666,
+      "origin": "tests/test_keyboard_usage_normalization.py",
+      "sha256": "af1b1d2ee6845be03372db0d9bd64a2922319c4ef03de02122b8cd6b8fb24a31"
+    },
+    "tests/test_keyboard_visual_update.py": {
+      "bytes": 7736,
+      "origin": "tests/test_keyboard_visual_update.py",
+      "sha256": "32176f5205e91305c6b5c4907afed5681a5a7be57e071885d0ea3ea713c0210b"
+    },
+    "tests/test_keyboard_work_context.py": {
+      "bytes": 15943,
+      "origin": "tests/test_keyboard_work_context.py",
+      "sha256": "a2d5dae23dbb5bc1fdd51744a20e9e3423c48f71374cc53f6a03d44e397fa181"
+    },
+    "tests/test_keyboard_worker.py": {
+      "bytes": 13663,
+      "origin": "tests/test_keyboard_worker.py",
+      "sha256": "102241d0cdbe1820f90b5f1de25ba701ea4885e61c2632f92e83d5e879a5db12"
+    },
+    "tests/test_program_runtime_counterexamples.py": {
+      "bytes": 7539,
+      "origin": "tools/core_release/overlay/tests/test_program_runtime_counterexamples.py",
+      "sha256": "9fb2d834ee5709af061b2768141f9ad5efeb27d9ee9eded0f8d61ebc786fc630"
+    },
+    "tests/test_public_privacy.py": {
+      "bytes": 6548,
+      "origin": "tools/core_release/overlay/tests/test_public_privacy.py",
+      "sha256": "784c924c7d790d00e0a90e4020192081fe63a90ad1b80b629284da557030e2e4"
+    },
+    "tests/test_public_runner.py": {
+      "bytes": 3224,
+      "origin": "tools/core_release/overlay/tests/test_public_runner.py",
+      "sha256": "3686a26cbbdbc88bee53c74222f37e24b0686a59a628918a977c29848731f97a"
+    },
+    "tests/test_runner_lifecycle.py": {
+      "bytes": 6350,
+      "origin": "tools/core_release/overlay/tests/test_runner_lifecycle.py",
+      "sha256": "ef918a4920ffc4b89f5c2b32b9d8fd91ccd93cac489ea1d7c41432f4afac34a0"
+    }
+  },
+  "test_adaptations": {
+    "test_keyboard_continuous_learning.py": {
+      "excluded_classes": [
+        "ActorContinuousContractTests"
+      ],
+      "reason": "Private launcher fixtures; the continuous loop class is retained"
+    },
+    "test_keyboard_execution_service.py": {
+      "changed_assertion": "Device-specific right-only text replaced by generic reference-pose restoration",
+      "excluded_methods": [
+        "test_resume_cli_requires_the_published_observation_home_confirmation",
+        "test_review_event_builder_and_cli_publish_only_owner_readonly_event"
+      ],
+      "reason": "Private device launcher is outside this package; other recovery tests retained"
+    },
+    "test_keyboard_learning_access.py": {
+      "changed_fixture": "Dedicated trajectory catalog replaced by generic reference material"
+    },
+    "test_keyboard_long_execution_transport.py": {
+      "excluded_classes": [
+        "RealServeTransportTests",
+        "ActorLifecycleContractTests"
+      ],
+      "reason": "Private controller/launcher fixtures; six subprocess lifecycle tests retained"
+    },
+    "test_keyboard_notepad_reset.py": {
+      "excluded_methods": [
+        "test_actual_editor_callback_clears_and_resets_ime_without_reading_buffer"
+      ],
+      "reason": "GTK editor script excluded; callback and local socket behavior retained"
+    },
+    "test_keyboard_own_sources.py": {
+      "changed_fixture": "Canonical temporary path resolves macOS directory aliases"
+    },
+    "test_keyboard_request_lifecycle.py": {
+      "changed_import": "Extracted control_protocol.Audit"
+    }
+  }
+}

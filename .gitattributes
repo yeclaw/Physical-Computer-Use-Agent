@@ -1,0 +1,5 @@
+*.mp4 binary -delta
+*.jpg binary
+*.png binary
+# Preserve the audited CSV's original CRLF record terminators.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

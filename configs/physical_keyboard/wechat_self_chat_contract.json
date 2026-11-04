@@ -1,0 +1,19 @@
+{
+  "protocol": "physical-keyboard-chat-contract-v1",
+  "id": "PCU-CHAT-SELF-001",
+  "version": 1,
+  "scope": {
+    "task_id": "mock-task",
+    "device_id": "mock-device",
+    "layout_id": "mock-layout"
+  },
+  "objective": "Have a short English conversation in the operator-opened WeChat chat with their own alternate account. Read the incoming request from the physical screen, choose relevant short replies, type and physically correct them as needed, visually check each draft before a separate send, and read back the new outgoing bubble. Continue useful task control and skill improvement until the current exchange is answered and visually verified or external assistance is needed. You own text, caret, grouping and correction decisions. Preserve justified reusable Skills and Lessons without turning every reply into a skill-saving ceremony.",
+  "application": "wechat",
+  "recipient_scope": "operator_selected_self_account",
+  "send_key": "unconfirmed",
+  "completion_requirements": [
+    "new_outgoing_message_visible",
+    "compose_box_empty",
+    "released_and_input_stable"
+  ]
+}

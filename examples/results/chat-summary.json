@@ -1,0 +1,31 @@
+{
+  "protocol": "public-demo-usage-summary-v1",
+  "condition": "complete_39_key_demonstrations_and_prior_skills",
+  "agent_model": "gpt-6-astra",
+  "effort": "xhigh",
+  "service_tier": "default",
+  "sent_messages": 24,
+  "sent_characters": 634,
+  "completed_model_decisions": 160,
+  "runtime_programs": 53,
+  "whole_run_seconds": 11663,
+  "native_usage": {
+    "totalTokens": 27559037,
+    "inputTokens": 27513901,
+    "cachedInputTokens": 24982016,
+    "outputTokens": 45136,
+    "reasoningOutputTokens": 17521
+  },
+  "uncached_input_tokens": 2531885,
+  "mean_per_sent_message": {
+    "decisions": 6.666666666666667,
+    "native_total_including_cached": 1148293.2083333333,
+    "cached_input": 1040917.3333333334,
+    "uncached_input": 105495.20833333333,
+    "output_including_reasoning": 1880.6666666666667
+  },
+  "cache_fraction_of_input": 0.9079779708446287,
+  "scope": "Entire recorded application run including startup, observations, planning, repair, knowledge operations and waiting; excludes earlier training and the other service.",
+  "accounting": "cached input is a subset of input; reasoning output is a subset of output; counters are not a monetary bill",
+  "decision_usage_csv_sha256": "11f3cacb268e1800b703187d589c9443d4b1b1b08b79a279dc9314f7a0f169bd"
+}

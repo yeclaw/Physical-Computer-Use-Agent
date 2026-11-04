@@ -1,0 +1,20 @@
+{
+  "protocol": "physical-keyboard-skill-development-contract-v1",
+  "id": "PCU-SKILL-DEVELOPMENT-001",
+  "version": 1,
+  "scope": {
+    "task_id": "mock-task",
+    "device_id": "mock-device",
+    "layout_id": "mock-layout"
+  },
+  "application": "training_notepad",
+  "session_mode": "continuous",
+  "objective": "在当前设备和训练编辑器中，持续改进可复用的物理键盘技能。自主选择输入任务与实验，依据真实观察发现并研究缺陷、补偿行为和组合机会，自己生成和修订技能接口、程序、适用条件与验证方法，使能力可用于新的参数和组合。",
+  "development_criteria": [
+    "优先保证实际输入正确、动作完成和充分释放；执行返回正常与任务结果分别评价。",
+    "在可靠完成的基础上减少重复纠错、无效移动、衔接停顿、模型调用和推理消耗。",
+    "区分当前文字已修正与底层技能问题已改善；保留未解决问题和反证，不因补偿成功自动关闭问题。",
+    "由Astra自行生成技能描述、参数接口、前后条件、代码及组合方式；利用相关历史并在合适条件下验证新组合。",
+    "记录尝试、版本、适用性、局限与改进前后证据；阶段总结和一次成功不结束持续训练，也不宣称稳定晋升。"
+  ]
+}

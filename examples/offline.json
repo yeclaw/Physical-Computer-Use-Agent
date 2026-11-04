@@ -1,0 +1,7 @@
+{
+  "task": "Exercise synthetic press, feedback, revision, save and reuse. Do not claim physical or autonomous learning.",
+  "scope": {"task_id": "mock-press", "device_id": "mock-device", "layout_id": "mock-layout"},
+  "knowledge": "/tmp/physical-agent-demo-knowledge",
+  "device": {"factory": "astra_robotics_agent.physical_keyboard.runtime.mock_device:factory", "settings": {}},
+  "model": {"factory": "astra_robotics_agent.physical_keyboard.agent.offline_session:factory", "settings": {}}
+}

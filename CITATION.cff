@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software in your work, please cite this repository."
+type: software
+title: "Physical Computer Use Agent"
+authors:
+  - family-names: "yeclaw"
+version: 0.1.0.dev0
+license: Apache-2.0
+url: "https://github.com/yeclaw/Physical-Computer-Use-Agent"
+repository-code: "https://github.com/yeclaw/Physical-Computer-Use-Agent"

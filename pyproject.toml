@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools==81.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "physical-computer-use-agent"
+version = "0.1.0.dev0"
+description = "A program-based agent harness with execution evidence and persistent skill learning"
+requires-python = ">=3.11"
+readme = "README.md"
+authors = [{name = "yeclaw"}]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/yeclaw/Physical-Computer-Use-Agent"
+Issues = "https://github.com/yeclaw/Physical-Computer-Use-Agent/issues"
+
+[project.optional-dependencies]
+vision = ["Pillow==12.2.0", "numpy==2.4.3"]
+
+[project.scripts]
+physical-agent = "astra_robotics_agent.physical_keyboard.agent.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true

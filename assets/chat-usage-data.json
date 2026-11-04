@@ -1,0 +1,21 @@
+{
+  "wall_seconds": 11662.998082,
+  "runtime_program_wall_seconds": 4394.07948,
+  "other_session_seconds": 7268.918602,
+  "sent_messages": 24,
+  "native_usage": {
+    "totalTokens": 27559037,
+    "inputTokens": 27513901,
+    "cachedInputTokens": 24982016,
+    "outputTokens": 45136,
+    "reasoningOutputTokens": 17521
+  },
+  "mean_per_sent_message": {
+    "decisions": 6.666666666666667,
+    "native_total_including_cached": 1148293.2083333333,
+    "cached_input": 1040917.3333333334,
+    "uncached_input": 105495.20833333333,
+    "output_including_reasoning": 1880.6666666666667
+  },
+  "source": "examples/results/chat-summary.json; audited runtime program duration from EXP043"
+}
